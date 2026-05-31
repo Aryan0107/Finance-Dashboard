@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📈 Finance Dashboard</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>NIFTY 50</h3>
+                <p id="nifty">24,850</p>
+            </div>
+
+            <div class="card">
+                <h3>SENSEX</h3>
+                <p id="sensex">81,500</p>
+            </div>
+
+            <div class="card">
+                <h3>BANK NIFTY</h3>
+                <p id="banknifty">55,200</p>
+            </div>
+
+        </div>
+
+        <div class="watchlist">
+            <h2>Watchlist</h2>
+
+            <input
+                type="text"
+                id="stockInput"
+                placeholder="Enter Stock Name">
+
+            <button onclick="addStock()">
+                Add Stock
+            </button>
+
+            <ul id="stockList"></ul>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
