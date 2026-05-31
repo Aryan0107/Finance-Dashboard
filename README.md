@@ -1,84 +1,97 @@
 # 📈 Finance Dashboard
 
-A modern and responsive Finance Dashboard built using React, Tailwind CSS, and Recharts. The application provides stock tracking, portfolio management, market insights, and interactive visualizations through an intuitive user interface.
+A responsive Finance Dashboard built using HTML, CSS, and JavaScript. The application provides users with a clean interface to monitor market indices, manage a stock watchlist, and explore financial data through an intuitive dashboard layout.
 
 ## 🚀 Features
 
-- Real-time Stock Search
-- Portfolio Tracking
-- Watchlist Management
-- Interactive Charts
-- Market Overview Dashboard
-- Dark/Light Mode
-- Fully Responsive Design
-- Clean and Modern UI
+- Market Overview Cards
+- Stock Watchlist Management
+- Responsive Design
+- Interactive User Interface
+- Clean Dashboard Layout
+- Real-Time DOM Updates
+- Beginner-Friendly Code Structure
 
 ## 🛠 Tech Stack
 
-- React.js
-- Tailwind CSS
-- Recharts
-- Axios
-- React Router
-- Context API
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
 ## 📂 Project Structure
 
 finance-dashboard/
 │
-├── public/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
 │
-├── src/
-│ ├── components/
-│ │ ├── Navbar.jsx
-│ │ ├── Sidebar.jsx
-│ │ ├── StockCard.jsx
-│ │ ├── StockChart.jsx
-│ │ └── MarketStats.jsx
-│ │
-│ ├── pages/
-│ │ ├── Dashboard.jsx
-│ │ ├── Portfolio.jsx
-│ │ ├── Watchlist.jsx
-│ │ └── StockDetails.jsx
-│ │
-│ ├── services/
-│ │ └── stockApi.js
-│ │
-│ ├── context/
-│ │ └── ThemeContext.jsx
-│ │
-│ ├── App.jsx
-│ └── main.jsx
+├── assets/
+│   ├── logo.png
+│   └── dashboard-preview.png
 │
-├── package.json
-└── README.md
+└── data/
+    └── stocks.json
 
-## 📸 Screenshots
+## 📸 Preview
 
-Add screenshots here after deployment.
+Add screenshots of the dashboard here after deployment.
 
 ## ⚙️ Installation
 
+1. Clone the repository
+
 ```bash
-git clone https://github.com/yourusername/finance-dashboard.git
-
-cd finance-dashboard
-
-npm install
-
-npm run dev
+git clone https://github.com/your-username/finance-dashboard.git
 ```
 
-## 🎯 Future Improvements
+2. Navigate to the project directory
 
-- Authentication
-- AI-based Stock Insights
-- News Integration
-- Portfolio Analytics
-- Stock Prediction
+```bash
+cd finance-dashboard
+```
+
+3. Open `index.html` in your browser
+
+No additional dependencies are required.
+
+## 🎯 Key Functionalities
+
+- Display financial market indices
+- Add stocks to a personal watchlist
+- Dynamic content updates using JavaScript
+- Responsive layout for desktop and mobile devices
+- User-friendly dashboard experience
+
+## 🔮 Future Enhancements
+
+- Stock Market API Integration
+- Interactive Charts using Chart.js
+- Dark Mode Toggle
+- Portfolio Tracker
+- Local Storage Support
+- Financial News Section
+- Search and Filter Functionality
+
+## 📚 Learning Outcomes
+
+Through this project, I gained hands-on experience with:
+
+- DOM Manipulation
+- Event Handling
+- Responsive Web Design
+- JavaScript Functions
+- CSS Flexbox
+- Project Structuring and Version Control
 
 ## 👨‍💻 Author
 
-Aryan Kumar
+**Aryan Kumar**
+
+Mathematics and Computing  
 NIT Durgapur
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
